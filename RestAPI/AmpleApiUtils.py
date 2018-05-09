@@ -52,6 +52,10 @@ def DecoRestAPI(api_func):
         RestUtils.DebugPrint(RestUtils.logFP, "AmpleApiUtils.py - oooooooperations is:  %s" % operations)
 
         full_path = operations[0]
+        if "{auth_id}" in full_path:
+            auth_id= kwargs['auth_id']
+            full_path=full_path.replace("{auth_id}",auth_id)
+            print(full_path)
         method = operations[1]
         if len(operations) > 2:
             ntype = operations[2]
@@ -68,32 +72,13 @@ def DecoRestAPI(api_func):
         elif method == 'post':
 
             print(str(restParams) + 'post params')
-            if "alertsubscriptions" in full_path:
-                print("changed the full_path")
-                full_path = '/em/rest/alertsubscriptions/addorupdate'
 
-            if "sites" in full_path:
-                restParams['params'] = {"type": "SITE", "name": "rest_site1", "poleLocation": "", "address": "",
-                                        "lon": "",
-                                        "lat": "", "overrideGps": False}
-                restParams['params']["name"] = payload['group_tree'][3]
 
             print(str(RestUtils.server + full_path) + '---this the post url')
             print(str(restParams))
             response = RestUtils.session.post(RestUtils.server + full_path, **restParams)
             responseJson = response.json()
             print "post response is %s\n" % response
-
-        elif method == 'export':
-            timeParams = restParams['params']
-
-            restParams = {'allow_redirects': True, 'params': timeParams}
-
-            # restParams['params'] = {'timestamp' : st_milli, 'endtimestamp' : end_milli, 'timezone': 'America/Los_Angeles'}
-            print 'REST -- PARAMS: ', restParams
-
-            response = RestUtils.session.get(RestUtils.server + full_path, **restParams)
-            print "get export response is %s\n" % response
 
         else:
             RestUtils.DebugPrint(RestUtils.logFP, 'No specific method called on REST api')

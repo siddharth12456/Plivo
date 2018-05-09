@@ -5,7 +5,6 @@
         {
             "Test_Name" : "get number API test",
             "comment" : "Test 1",
-            "HiptestName":"get number API test",
             "skip" : false,
             "Description" : "This tst case verifies user should not be added with empty user name",
             "Steps" :
@@ -16,6 +15,7 @@
                     "function_name" : "getNumberPlivo",
                     "comment" : "Step 1 - Adding user for acceptance test.",
                     "skip" : false,
+                    "auth_id":"MAODUZYTQ0Y2FMYJBLOW",
                     "timeout" : 100,
                     "expectation" : {"status": "OK"}
                 }
