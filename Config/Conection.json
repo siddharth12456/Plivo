@@ -1,0 +1,17 @@
+{
+    "Server": "api.plivo.com/v1/",
+    "Username": "ampleadmin",
+    "Password": "yourpass",
+
+     "Connections":
+    {
+        "telnet_port":4000,
+        "testset_xml_file":"/Users/SQA/Downloads/at-ssn2.xml",
+        "user": "ampleadmin",
+        "user_ip_address": "10.0.0.2",
+        "user_password": "ampacity",
+        "dev_board_ip": "10.29.103.12",
+        "id_rsa_key": "~/.ssh/sentient/id_rsa",
+        "radio_type": "ssn"
+    }
+}

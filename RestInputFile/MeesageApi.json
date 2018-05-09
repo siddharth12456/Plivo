@@ -1,0 +1,27 @@
+{
+    "Tests":
+    [
+
+        {
+            "Test_Name" : "Add user with all fields",
+            "comment" : "Test 1",
+            "HiptestName":"Add user with all fields",
+            "skip" : false,
+            "Description" : "This tst case verifies user should not be added with empty user name",
+            "Steps" :
+            [
+
+
+                {
+                    "function_name" : "getNumberPlivo",
+                    "comment" : "Step 1 - Adding user for acceptance test.",
+                    "skip" : false,
+                    "timeout" : 100,
+                    "expectation" : {"status": "OK"}
+                }
+
+
+            ]
+        }
+    ]
+}

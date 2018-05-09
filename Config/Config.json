@@ -1,0 +1,24 @@
+{
+    "Config": {
+        "ample_build": "2.0.0.64",
+        "log_path": "log",
+        "log_level": "info",
+        "test_report_path": "log"
+
+    },
+
+
+    "tests_group" :
+    {
+        "message_api" : true
+
+
+    },
+
+    "InputTestfiles" :
+    {
+        "message_api" : "RestInputFile/MeesageApi.json"
+
+    }
+
+}
