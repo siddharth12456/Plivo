@@ -1,0 +1,3 @@
+Test Name: get number API test,Target: 
+Test Steps, Parameters, Step Result, Total Run Time, Comment
+1 : 1 getNumberPlivo, expectation: [{'status': 'OK'}]  timeout: [100]  auth_id: [MAODUZYTQ0Y2FMYJBLOW]  , FAIL, 23.20, RunTestStep: get number API test 

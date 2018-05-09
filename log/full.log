@@ -1,0 +1,12 @@
+Created a new session with server: https://api.plivo.com/v1/, username: ampleadmin, and password yourpass.Got SessionID, but have not tested any requests yetBefore Test: get number API test
+
+15:23:48 - Test #1:1 getNumberPlivo
+function_name is getNumberPlivo
+AmpleApiUtils.py - DecoRestAPI(api_func)/wrapper() 
+
+Test Name :  REST API: getNumberPlivo
+INPUT Arguments:  {"expectation": {"status": "OK"}, "timeout": 100, "auth_id": "MAODUZYTQ0Y2FMYJBLOW"}
+head is:  {'content-type': 'application/json'}
+AmpleApiUtils.py - oooooooperations is:  ['Account/{auth_id}/Number/', 'get', 'Number']
+AmpleApiUtils.py - nnnnnnnnnntype is:  Number
+None
