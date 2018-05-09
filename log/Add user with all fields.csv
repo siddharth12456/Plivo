@@ -1,8 +1,0 @@
-Test Name: Add user with all fields,Target: 
-Test Steps, Parameters, Step Result, Total Run Time, Comment
-1 : 1 getNumberPlivo, expectation: [{'status': 'OK'}]  timeout: [100]  , FAIL, 49.98, Actual status code: 401, Expected status code(s): 200
-1 : Add user with all fields, , FAIL, 59.87, Actual status code: 401, Expected status code(s): 200
-Total Steps in Testcase, 1
-Total Steps Skipped, 0
-Total Steps Passed, 0
-Total Steps Failed, 1

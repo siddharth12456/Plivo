@@ -3,9 +3,9 @@
     [
 
         {
-            "Test_Name" : "Add user with all fields",
+            "Test_Name" : "get number API test",
             "comment" : "Test 1",
-            "HiptestName":"Add user with all fields",
+            "HiptestName":"get number API test",
             "skip" : false,
             "Description" : "This tst case verifies user should not be added with empty user name",
             "Steps" :

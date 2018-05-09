@@ -1,7 +1,0 @@
-1 : Add user with all fields, , , , , 59.87 
- ,getNumberPlivo, [100]  , [{'status': 'OK'}] , FAIL, 49.98, Actual status code: 401, Expected status code(s): 200
- ,    Steps Passed   : 0
- ,    Steps Failed     : 1
-Total Run Time (seconds), 66.84
-Total Test Passed, 0
-Total Test Failed, 1
