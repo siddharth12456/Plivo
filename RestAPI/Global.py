@@ -7,19 +7,7 @@ NA = 3
 
 
 
-uut = ''
-port = ''
-generation = ''
-nicInterface = ''
-unitIPAddress = ''
-arpFile = ''
-rsyncPATH = ''
-reportPath = ''
-chromaProfile = ''
-devProfile = ''
-tftpServerIP = ''
-homePath = ''
-target = ''
+'
 airIP = ''
 lttpPath = ''
 
