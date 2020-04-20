@@ -43,6 +43,17 @@ packetCorruptionSettings = ''
 packetReorderSettings = ''
 packetLossSettings = ''
 
+
+
+
+
+
+
+
+
+
+
+
 # two terminals
 tsChild = 0
 comChild = 0
