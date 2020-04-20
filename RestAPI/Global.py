@@ -7,7 +7,12 @@ NA = 3
 
 
 
+<<<<<<< HEAD
 '
+=======
+homePath = ''
+target = ''
+>>>>>>> 81736ef... feature 23
 airIP = ''
 lttpPath = ''
 
