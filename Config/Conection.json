@@ -5,6 +5,9 @@
 
      "Connections":
     {
+    
+    
+    
         "telnet_port":4000,
         "testset_xml_file":"/Users/SQA/Downloads/at-ssn2.xml",
         "user": "ampleadmin",
