@@ -22,6 +22,9 @@ lttpPath = ''
 
 
 
+
+
+
 #Network settings
 packetDelaySettings = ''
 packetDuplicationSettings = ''
