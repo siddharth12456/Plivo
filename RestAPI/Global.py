@@ -8,11 +8,19 @@ NA = 3
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 '
 =======
 homePath = ''
 target = ''
 >>>>>>> 81736ef... feature 23
+=======
+homePath = ''
+target = ''
+=======
+'
+>>>>>>> tuut
+>>>>>>> 0abb981... tuut
 airIP = ''
 lttpPath = ''
 
